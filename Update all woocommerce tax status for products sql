@@ -1,0 +1,5 @@
+//Update all woocommerce tax status for products sql
+
+UPDATE `wp_postmeta`
+SET meta_value='taxable'
+WHERE meta_key='_tax_status'
